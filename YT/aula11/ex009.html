@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contries of the World</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    
+    <H1>Br?</H1>
+    <input type="button" value="ver" onclick="verifique()">
+    <input type="text" name="txtv1" id="txtv1">
+    
+    <div id="res"></div>
+
+    <script>
+       
+
+        function verifique(){ 
+            var v1 = window.document.getElementById('txtv1')
+            var res = window.document.getElementById('res')
+            
+            if ( v1 = 'brasil'){
+                res.innerText = 'Você é brasileiro'
+            }else{
+                res.innerText = 'oui'
+            }
+            
+        }
+        
+    </script>
+
+</body>
+</html>
